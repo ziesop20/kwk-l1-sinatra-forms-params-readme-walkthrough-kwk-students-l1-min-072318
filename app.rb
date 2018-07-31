@@ -17,5 +17,4 @@ class App < Sinatra::Base
 post '/food' do
  "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
 end
-<p data-visibility='hidden'>KWK-L1 HTML Forms and Params</p>
 end
